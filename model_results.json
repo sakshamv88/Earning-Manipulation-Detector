@@ -1,0 +1,29 @@
+{
+  "train_rows": 144,
+  "test_rows": 48,
+  "beneish_benchmark": {
+    "model": "Beneish M-Score (rule-based, threshold M > -1.78)",
+    "precision": 0.667,
+    "recall": 0.333,
+    "roc_auc": 0.655,
+    "n_test": 48,
+    "n_positive": 6
+  },
+  "logistic_regression": {
+    "model": "Logistic Regression",
+    "precision": 0.556,
+    "recall": 0.833,
+    "roc_auc": 0.96,
+    "n_test": 48,
+    "n_positive": 6
+  },
+  "lightgbm": {
+    "model": "LightGBM",
+    "precision": 0.667,
+    "recall": 0.667,
+    "roc_auc": 0.921,
+    "n_test": 48,
+    "n_positive": 6
+  },
+  "leave_one_out_flagged": "11/12"
+}
